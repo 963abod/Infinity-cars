@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "vehicles": "Vehículos",
+    "whyUs": "Nosotros",
+    "testimonials": "Testimonios",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "bookNow": "Reservar por WhatsApp"
+  },
+  "hero": {
+    "badge": "INFINITY CARS - Siria",
+    "titleLine1": "Alquiler de Coches de Lujo",
+    "titleLine2": "Elegancia y Confort Exclusivo",
+    "description": "Disfrute de un viaje extraordinario en Siria con nuestra flota de vehículos de lujo de última generación. Entrega rápida y asistencia 24/7.",
+    "primaryCta": "Reservar por WhatsApp",
+    "secondaryCta": "Ver Vehículos"
+  },
+  "benefits": {
+    "title": "¿Por qué elegir Infinity Cars?",
+    "modernFleet": {
+      "title": "Flota Moderna",
+      "desc": "Últimos modelos equipados con la máxima seguridad y confort."
+    },
+    "insurance": {
+      "title": "Seguro Total",
+      "desc": "Cobertura completa y tranquilidad durante todo el alquiler."
+    },
+    "fastDelivery": {
+      "title": "Entrega Rápida",
+      "desc": "Vehículo entregado en su ubicación en solo 20 minutos."
+    },
+    "support": {
+      "title": "Soporte 24/7",
+      "desc": "Equipo de atención al cliente disponible a todas horas."
+    }
+  },
+  "vehicles": {
+    "badge": "Nuestra Flota de Lujo",
+    "title": "Últimos Vehículos Disponibles",
+    "description": "Elija entre una amplia gama de vehículos de alta gama y reserve al instante a través de WhatsApp.",
+    "filterAll": "Todos",
+    "filterSedan": "Sedán",
+    "filterSuv": "SUV",
+    "filterLuxury": "Lujo",
+    "filterSports": "Deportivo",
+    "card": {
+      "pickupTime": "Entrega en {time} min",
+      "bookNow": "Reservar por WhatsApp",
+      "viewDetails": "Detalles del Vehículo",
+      "specs": {
+        "engine": "Motor",
+        "seats": "Plazas",
+        "insurance": "Seguro",
+        "transmission": "Transmisión",
+        "doors": "Puertas",
+        "luggage": "Equipaje"
+      }
+    },
+    "modal": {
+      "title": "Detalles del Vehículo",
+      "available": "Disponible para Reserva",
+      "unavailable": "Reservado Actualmente",
+      "bookVehicle": "Reservar este Vehículo por WhatsApp",
+      "close": "Cerrar"
+    }
+  },
+  "whyUs": {
+    "badge": "Excelencia Sin Límites",
+    "title": "Una Experiencia de Alquiler Única",
+    "description": "Redefinimos el alquiler de coches de lujo en Siria garantizando fiabilidad, impecable estado de los vehículos y trato personalizado.",
+    "list": [
+      {
+        "title": "Variedad de Flota",
+        "desc": "Opciones adaptadas a viajes de negocios, familias y trayectos largos."
+      },
+      {
+        "title": "Precios Transparentes",
+        "desc": "Condiciones claras sin tarifas ocultas."
+      },
+      {
+        "title": "Servicio Confiable",
+        "desc": "Mantenimiento riguroso y controles antes de cada entrega."
+      },
+      {
+        "title": "Atención Inmediata",
+        "desc": "Contacto directo vía WhatsApp para iniciar su recorrido al instante."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Reservar su Vehículo?",
+    "description": "Contáctenos por WhatsApp para confirmar la disponibilidad y obtener los detalles del alquiler al momento.",
+    "button": "Reservar Ahora por WhatsApp"
+  },
+  "testimonials": {
+    "badge": "Opiniones de Clientes",
+    "title": "Lo que dicen nuestros clientes",
+    "description": "Nos enorgullece ofrecer el mejor servicio de alquiler respaldado por las opiniones de nuestros clientes.",
+    "items": [
+      {
+        "name": "Samer Al-Ali",
+        "role": "Empresario",
+        "comment": "Un trato excepcional y profesional. El coche estaba impecable como nuevo. Entrega puntual."
+      },
+      {
+        "name": "Ing. Ahmad Homsi",
+        "role": "Visitante de EAU",
+        "comment": "La mejor empresa de alquiler de lujo en Siria. Respuesta inmediata en WhatsApp y proceso muy ágil."
+      },
+      {
+        "name": "Dima Al-Shami",
+        "role": "Cliente Habitual",
+        "comment": "Coches modernos de alta gama y atención al cliente disponible siempre. Experiencia cómoda y segura."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Empresa líder en alquiler de coches de lujo en Siria.",
+    "navTitle": "Enlaces Rápidos",
+    "servicesTitle": "Servicios",
+    "contactTitle": "Contacto",
+    "services": [
+      "Alquiler Diario",
+      "Alquiler Semanal",
+      "Alquiler Mensual",
+      "Servicio VIP y Chofer",
+      "Traslado al Aeropuerto"
+    ],
+    "phone": "+963 912 345 678",
+    "address": "Damasco, Siria",
+    "whatsapp": "Hablar por WhatsApp",
+    "languageNote": "Atención multilingüe 24/7",
+    "copyright": "Todos los derechos reservados © {year} INFINITY CARS.",
+    "developerCredit": "Design and development Aboud Web"
+  },
+  "whatsapp": {
+    "genericMessage": "Hola Infinity Cars, me gustaría solicitar información sobre el alquiler de un vehículo."
+  },
+  "seo": {
+    "title": "INFINITY CARS | Alquiler de Coches de Lujo en Siria",
+    "description": "Alquile coches de lujo modernos en Siria con la máxima seguridad y comodidad. Reserva rápida por WhatsApp."
+  }
+}

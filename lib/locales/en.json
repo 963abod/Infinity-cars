@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "vehicles": "Vehicles",
+    "whyUs": "About Us",
+    "testimonials": "Testimonials",
+    "services": "Services",
+    "contact": "Contact Us",
+    "bookNow": "Book via WhatsApp"
+  },
+  "hero": {
+    "badge": "INFINITY CARS - Syria",
+    "titleLine1": "Premium Car Rental",
+    "titleLine2": "Unmatched Luxury & Ease",
+    "description": "Experience an extraordinary journey in Syria with our premier fleet of modern luxury vehicles. Rapid pickup and 24/7 dedicated service.",
+    "primaryCta": "Book Now via WhatsApp",
+    "secondaryCta": "Explore Vehicles"
+  },
+  "benefits": {
+    "title": "Why Choose Infinity Cars?",
+    "modernFleet": {
+      "title": "Modern Fleet",
+      "desc": "Latest vehicle models equipped with high-end safety & comfort features."
+    },
+    "insurance": {
+      "title": "Full Insurance",
+      "desc": "Comprehensive coverage and peace of mind throughout your rental."
+    },
+    "fastDelivery": {
+      "title": "Fast Pickup",
+      "desc": "Vehicle delivered to your designated location within 20 minutes."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "desc": "Dedicated customer care team available around the clock."
+    }
+  },
+  "vehicles": {
+    "badge": "Our Luxury Fleet",
+    "title": "Latest Available Vehicles",
+    "description": "Select from a wide range of luxury cars tailored to your journey, and request instant booking with a single click.",
+    "filterAll": "All",
+    "filterSedan": "Sedan",
+    "filterSuv": "SUV",
+    "filterLuxury": "Luxury",
+    "filterSports": "Sports",
+    "card": {
+      "pickupTime": "Pickup in {time} min",
+      "bookNow": "Book Now via WhatsApp",
+      "viewDetails": "Vehicle Details",
+      "specs": {
+        "engine": "Engine",
+        "seats": "Seats",
+        "insurance": "Insurance",
+        "transmission": "Transmission",
+        "doors": "Doors",
+        "luggage": "Luggage"
+      }
+    },
+    "modal": {
+      "title": "Vehicle Details",
+      "available": "Available for Booking",
+      "unavailable": "Currently Reserved",
+      "bookVehicle": "Book This Vehicle via WhatsApp",
+      "close": "Close"
+    }
+  },
+  "whyUs": {
+    "badge": "Excellence Without Limits",
+    "title": "An Exceptional Rental Experience",
+    "description": "We redefine luxury vehicle rental in Syria through uncompromised reliability, top-tier vehicle condition, and personalized service.",
+    "list": [
+      {
+        "title": "Fleet Diversity",
+        "desc": "Tailored options for executive travel, family trips, and long drives."
+      },
+      {
+        "title": "Transparent Pricing",
+        "desc": "Clear terms with zero hidden fees or unexpected charges."
+      },
+      {
+        "title": "Reliable Service",
+        "desc": "Rigorous maintenance and multi-point safety checks before handover."
+      },
+      {
+        "title": "Rapid Assistance",
+        "desc": "Direct instant WhatsApp communication to launch your journey."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Reserve Your Vehicle?",
+    "description": "Connect with us on WhatsApp to confirm availability and finalize your rental details instantly.",
+    "button": "Book Now via WhatsApp"
+  },
+  "testimonials": {
+    "badge": "Client Feedback",
+    "title": "What Our Clients Say",
+    "description": "We take pride in delivering premier luxury rental experiences backed by valued client reviews.",
+    "items": [
+      {
+        "name": "Samer Al-Ali",
+        "role": "Business Executive",
+        "comment": "Exceptionally professional service. The car was spotless and in pristine condition. Delivery was right on time."
+      },
+      {
+        "name": "Eng. Ahmad Homsi",
+        "role": "UAE Visitor",
+        "comment": "Hands down the best luxury rental company in Syria. Instant WhatsApp response and effortless booking process."
+      },
+      {
+        "name": "Dima Al-Shami",
+        "role": "Regular Client",
+        "comment": "Modern high-end vehicles and flawless customer support anytime. Always a seamless and comfortable ride."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "The premier luxury automotive rental company operating in Syria.",
+    "navTitle": "Quick Links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact Us",
+    "services": [
+      "Daily Rental",
+      "Weekly Rental",
+      "Monthly Rental",
+      "VIP & Chauffeur",
+      "Airport Transfer"
+    ],
+    "phone": "+963 912 345 678",
+    "address": "Damascus, Syria",
+    "whatsapp": "Chat on WhatsApp",
+    "languageNote": "Multilingual customer service 24/7",
+    "copyright": "All rights reserved © {year} INFINITY CARS.",
+    "developerCredit": "Design and development Aboud Web"
+  },
+  "whatsapp": {
+    "genericMessage": "Hello Infinity Cars, I would like to inquire about booking a vehicle."
+  },
+  "seo": {
+    "title": "INFINITY CARS | Premium Car Rental Syria",
+    "description": "Rent top-tier luxury cars in Syria with maximum comfort, safety, and transparent terms. Instant booking via WhatsApp."
+  }
+}
