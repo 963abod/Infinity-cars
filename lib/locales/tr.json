@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "vehicles": "Araçlar",
+    "whyUs": "Hakkımızda",
+    "testimonials": "Müşteri Yorumları",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "bookNow": "WhatsApp ile Rezerve Et"
+  },
+  "hero": {
+    "badge": "INFINITY CARS - Suriye",
+    "titleLine1": "Lüks Araç Kiralama",
+    "titleLine2": "Mükemmel Konfor ve Kolaylık",
+    "description": "Suriye'de son model lüks araç filomuzla olağanüstü bir yolculuk deneyimi yaşayın. Hızlı teslimat ve 24/7 kesintisiz hizmet.",
+    "primaryCta": "Şimdi WhatsApp ile Rezerve Et",
+    "secondaryCta": "Araçları İncele"
+  },
+  "benefits": {
+    "title": "Neden Infinity Cars?",
+    "modernFleet": {
+      "title": "Modern Filo",
+      "desc": "En üst düzey konfor ve güvenlik donanımlı yeni model araçlar."
+    },
+    "insurance": {
+      "title": "Tam Sigorta",
+      "desc": "Kiralama süreniz boyunca tam koruma ve huzur."
+    },
+    "fastDelivery": {
+      "title": "Hızlı Teslimat",
+      "desc": "Aracınız 20 dakika içinde belirlediğiniz adrese teslim edilir."
+    },
+    "support": {
+      "title": "24/7 Destek",
+      "desc": "Günün her saati yanınızda olan profesyonel destek ekibi."
+    }
+  },
+  "vehicles": {
+    "badge": "Lüks Filomuz",
+    "title": "Mevcut Araç Filosu",
+    "description": "İhtiyacınıza uygun lüks araçlar arasından seçiminizi yapın ve tek tıkla doğrudan WhatsApp üzerinden kiralayın.",
+    "filterAll": "Tümü",
+    "filterSedan": "Sedan",
+    "filterSuv": "SUV",
+    "filterLuxury": "Lüks",
+    "filterSports": "Spor",
+    "card": {
+      "pickupTime": "{time} dakikada teslimat",
+      "bookNow": "Şimdi WhatsApp ile Rezerve Et",
+      "viewDetails": "Araç Detayları",
+      "specs": {
+        "engine": "Motor",
+        "seats": "Koltuk",
+        "insurance": "Sigorta",
+        "transmission": "Vites",
+        "doors": "Kapı",
+        "luggage": "Bagaj"
+      }
+    },
+    "modal": {
+      "title": "Araç Detayları",
+      "available": "Rezervasyona Açık",
+      "unavailable": "Şu An Rezerve",
+      "bookVehicle": "Bu Aracı WhatsApp ile Rezerve Et",
+      "close": "Kapat"
+    }
+  },
+  "whyUs": {
+    "badge": "Sınırsız Mükemmellik",
+    "title": "Ayrıcalıklı Kiralama Deneyimi",
+    "description": "Suriye'de lüks araç kiralamada güvenilirlik, yüksek araç kalitesi ve kişiselleştirilmiş hizmet sunuyoruz.",
+    "list": [
+      {
+        "title": "Zengin Filo",
+        "desc": "İş adamları, aileler ve uzun seyahatler için özel seçenekler."
+      },
+      {
+        "title": "Şeffaf Fiyatlar",
+        "desc": "Gizli ücretler olmadan tamamen açık şartlar."
+      },
+      {
+        "title": "Güvenilir Hizmet",
+        "desc": "Her teslimat öncesi periyodik bakım ve güvenlik kontrolleri."
+      },
+      {
+        "title": "Hızlı İletişim",
+        "desc": "Yolculuğunuza hemen başlamak için anında WhatsApp desteği."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Aracınızı Rezerve Etmeye Hazır mısınız?",
+    "description": "Rezervasyon detayları ve müsaitlik durumunu anında öğrenmek için WhatsApp üzerinden bizimle iletişime geçin.",
+    "button": "Şimdi WhatsApp ile Rezerve Et"
+  },
+  "testimonials": {
+    "badge": "Müşteri Yorumları",
+    "title": "Müşterilerimiz Ne Diyor?",
+    "description": "Değerli müşterilerimizin memnuniyeti ile gurur duyuyoruz.",
+    "items": [
+      {
+        "name": "Samer Al-Ali",
+        "role": "İş İnsanı",
+        "comment": "Çok profesyonel bir yaklaşım. Araç tertemiz ve sıfır kondisyondaydı. Zamanında teslim edildi."
+      },
+      {
+        "name": "Ahmad Homsi",
+        "role": "BAE'den Ziyaretçi",
+        "comment": "Suriye'deki en iyi lüks kiralama şirketi. WhatsApp üzerinden anında yanıt ve kolay rezervasyon."
+      },
+      {
+        "name": "Dima Al-Shami",
+        "role": "Daimi Müşteri",
+        "comment": "Lüks ve modern araçlar, 7/24 kesintisiz müşteri desteği. Her zaman konforlu ve güvenli."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Suriye'de faaliyet gösteren lider lüks araç kiralama şirketi.",
+    "navTitle": "Hızlı Bağlantılar",
+    "servicesTitle": "Hizmetlerimiz",
+    "contactTitle": "İletişim",
+    "services": [
+      "Günlük Kiralama",
+      "Haftalık Kiralama",
+      "Aylık Kiralama",
+      "VIP & Şoförlü Hizmet",
+      "Havalimanı Transferi"
+    ],
+    "phone": "+963 912 345 678",
+    "address": "Şam, Suriye",
+    "whatsapp": "WhatsApp ile Ulaşın",
+    "languageNote": "24/7 Çok dilli müşteri desteği",
+    "copyright": "Tüm hakları saklıdır © {year} INFINITY CARS.",
+    "developerCredit": "Design and development Aboud Web"
+  },
+  "whatsapp": {
+    "genericMessage": "Merhaba Infinity Cars, araç kiralama hakkında bilgi almak istiyorum."
+  },
+  "seo": {
+    "title": "INFINITY CARS | Suriye Lüks Araç Kiralama",
+    "description": "Suriye'de en yeni lüks araçları kiralayın. Şeffaf şartlar, konfor ve güvenli kiralama. WhatsApp ile anında rezervasyon."
+  }
+}

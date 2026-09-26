@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "vehicles": "Fahrzeuge",
+    "whyUs": "Über uns",
+    "testimonials": "Kundenstimmen",
+    "services": "Leistungen",
+    "contact": "Kontakt",
+    "bookNow": "Über WhatsApp buchen"
+  },
+  "hero": {
+    "badge": "INFINITY CARS - Syrien",
+    "titleLine1": "Premium-Autovermietung",
+    "titleLine2": "Höchster Komfort & Luxus",
+    "description": "Erleben Sie eine außergewöhnliche Reise in Syrien mit unserer Flotte moderner Luxusfahrzeuge. Schnelle Übergabe und 24/7-Kundenservice.",
+    "primaryCta": "Jetzt via WhatsApp buchen",
+    "secondaryCta": "Fahrzeuge ansehen"
+  },
+  "benefits": {
+    "title": "Warum Infinity Cars wählen?",
+    "modernFleet": {
+      "title": "Moderne Flotte",
+      "desc": "Neueste Fahrzeugmodelle mit höchstem Sicherheits- und Komfortstandard."
+    },
+    "insurance": {
+      "title": "Vollkaskoschutz",
+      "desc": "Lückenloser Schutz und vollste Sorgenfreiheit während der Miete."
+    },
+    "fastDelivery": {
+      "title": "Schnelle Übergabe",
+      "desc": "Fahrzeugübergabe an Ihrem Wunschort innerhalb von 20 Minuten."
+    },
+    "support": {
+      "title": "24/7 Support",
+      "desc": "Unser geschultes Serviceteam ist rund um die Uhr für Sie da."
+    }
+  },
+  "vehicles": {
+    "badge": "Unsere Luxusflotte",
+    "title": "Aktuelle Fahrzeugauswahl",
+    "description": "Wählen Sie aus einer exklusiven Auswahl an Premiumfahrzeugen und buchen Sie direkt per Klick via WhatsApp.",
+    "filterAll": "Alle",
+    "filterSedan": "Limousine",
+    "filterSuv": "SUV",
+    "filterLuxury": "Luxus",
+    "filterSports": "Sportwagen",
+    "card": {
+      "pickupTime": "Übergabe in {time} Min",
+      "bookNow": "Jetzt via WhatsApp buchen",
+      "viewDetails": "Fahrzeugdetails",
+      "specs": {
+        "engine": "Motor",
+        "seats": "Sitzplätze",
+        "insurance": "Versicherung",
+        "transmission": "Getriebe",
+        "doors": "Türen",
+        "luggage": "Gepäck"
+      }
+    },
+    "modal": {
+      "title": "Fahrzeugdetails",
+      "available": "Zur Buchung verfügbar",
+      "unavailable": "Derzeit reserviert",
+      "bookVehicle": "Dieses Fahrzeug via WhatsApp buchen",
+      "close": "Schließen"
+    }
+  },
+  "whyUs": {
+    "badge": "Exzellenz ohne Kompromisse",
+    "title": "Ein erstklassiges Mieterlebnis",
+    "description": "Wir definieren Premium-Autovermietung in Syrien neu – mit absoluter Zuverlässigkeit, einwandfreiem Fahrzeugzustand und individuellem Service.",
+    "list": [
+      {
+        "title": "Vielfältige Flotte",
+        "desc": "Maßgeschneiderte Optionen für Geschäftsreisen, Familien und Langstrecken."
+      },
+      {
+        "title": "Transparente Preise",
+        "desc": "Klara Bedingungen ohne versteckte Zusatzkosten."
+      },
+      {
+        "title": "Verlässlicher Service",
+        "desc": "Regelmäßige Wartung und Qualitätsprüfungen vor jeder Übergabe."
+      },
+      {
+        "title": "Schneller Kontakt",
+        "desc": "Direkter WhatsApp-Chat zur sofortigen Bestätigung Ihrer Fahrt."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit für Ihr Traumfahrzeug?",
+    "description": "Kontaktieren Sie uns direkt über WhatsApp, um Verfügbarkeit und Buchungsdetails sofort zu bestätigen.",
+    "button": "Jetzt via WhatsApp buchen"
+  },
+  "testimonials": {
+    "badge": "Kundenstimmen",
+    "title": "Was unsere Kunden sagen",
+    "description": "Wir sind stolz darauf, von unseren Kunden erstklassige Bewertungen zu erhalten.",
+    "items": [
+      {
+        "name": "Samer Al-Ali",
+        "role": "Unternehmer",
+        "comment": "Sehr professioneller Service. Das Auto war makellos sauber und neuwertig. Pünktliche Übergabe."
+      },
+      {
+        "name": "Dipl.-Ing. Ahmad Homsi",
+        "role": "Besucher aus den VAE",
+        "comment": "Die beste Luxusautovermietung in Syrien. Schnelle Antwort auf WhatsApp und unkomplizierte Abwicklung."
+      },
+      {
+        "name": "Dima Al-Shami",
+        "role": "Stammkundin",
+        "comment": "Moderne Oberklasse-Fahrzeuge und jederzeit erreichbarer Kundenservice. Immer eine sichere Fahrt."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Führender Anbieter für Luxus-Autovermietung in Syrien.",
+    "navTitle": "Direktlinks",
+    "servicesTitle": "Leistungen",
+    "contactTitle": "Kontakt",
+    "services": [
+      "Tagesmiete",
+      "Wochenmiete",
+      "Monatsmiete",
+      "VIP & Chauffeurservice",
+      "Flughafentransfer"
+    ],
+    "phone": "+963 912 345 678",
+    "address": "Damaskus, Syrien",
+    "whatsapp": "Chat auf WhatsApp",
+    "languageNote": "Mehrsprachiger Kundenservice rund um die Uhr",
+    "copyright": "Alle Rechte vorbehalten © {year} INFINITY CARS.",
+    "developerCredit": "Design and development Aboud Web"
+  },
+  "whatsapp": {
+    "genericMessage": "Hallo Infinity Cars, ich möchte mich über die Fahrzeugbuchung informieren."
+  },
+  "seo": {
+    "title": "INFINITY CARS | Luxus Autovermietung Syrien",
+    "description": "Mieten Sie moderne Luxusautos in Syrien zu fairen Konditionen mit höchstem Komfort. Direktbuchung via WhatsApp."
+  }
+}
