@@ -9,7 +9,7 @@
     "bookNow": "Reservar por WhatsApp"
   },
   "hero": {
-    "badge": "INFINITY CARS - Siria",
+    "badge": "Titan Cars - Siria",
     "titleLine1": "Alquiler de Coches de Lujo",
     "titleLine2": "Elegancia y Confort Exclusivo",
     "description": "Disfrute de un viaje extraordinario en Siria con nuestra flota de vehículos de lujo de última generación. Entrega rápida y asistencia 24/7.",
@@ -17,7 +17,7 @@
     "secondaryCta": "Ver Vehículos"
   },
   "benefits": {
-    "title": "¿Por qué elegir Infinity Cars?",
+    "title": "¿Por qué elegir Titan Cars?",
     "modernFleet": {
       "title": "Flota Moderna",
       "desc": "Últimos modelos equipados con la máxima seguridad y confort."
@@ -131,14 +131,14 @@
     "address": "Damasco, Siria",
     "whatsapp": "Hablar por WhatsApp",
     "languageNote": "Atención multilingüe 24/7",
-    "copyright": "Todos los derechos reservados © {year} INFINITY CARS.",
+    "copyright": "Todos los derechos reservados © {year} Titan Cars.",
     "developerCredit": "Design and development Aboud Web"
   },
   "whatsapp": {
-    "genericMessage": "Hola Infinity Cars, me gustaría solicitar información sobre el alquiler de un vehículo."
+    "genericMessage": "Hola Titan Cars, me gustaría solicitar información sobre el alquiler de un vehículo."
   },
   "seo": {
-    "title": "INFINITY CARS | Alquiler de Coches de Lujo en Siria",
+    "title": "Titan Cars | Alquiler de Coches de Lujo en Siria",
     "description": "Alquile coches de lujo modernos en Siria con la máxima seguridad y comodidad. Reserva rápida por WhatsApp."
   }
 }
