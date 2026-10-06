@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Phone, MapPin, MessageCircle, Globe2 } from "lucide-react";
-import { Locale } from "@/middleware";
+import { Locale } from "@/lib/locales";
 import { Dictionary } from "@/lib/i18n";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
