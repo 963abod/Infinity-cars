@@ -36,7 +36,7 @@ export function Footer({ locale, dict }: FooterProps) {
               href={`/${locale}`}
               className="inline-block text-2xl font-extrabold tracking-tight text-white hover:text-blue-200 transition-colors"
             >
-              INFINITY CARS
+              Titan Motors
             </Link>
             <p className="text-sm text-slate-300 font-normal leading-relaxed">
               {dict.footer.tagline}
