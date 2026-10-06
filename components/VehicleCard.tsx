@@ -111,7 +111,7 @@ export function VehicleCard({
         onClick={(e) => e.stopPropagation()}
         className="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 transition-all duration-300 active:scale-[0.98]"
       >
-        <span>{dict.vehicles?.card?.cta || (rtl ? "احجز الآن عبر واتساب" : "Book via WhatsApp")}</span>
+        <span>{dict.vehicles.card.bookNow}</span>
         <ArrowIcon className="w-4 h-4" />
       </a>
     </LiquidGlassCard>
