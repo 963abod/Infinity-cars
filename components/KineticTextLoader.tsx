@@ -15,8 +15,9 @@ export function KineticTextLoader({
 
   return (
     <div 
+      dir="ltr"
       className={`relative flex items-center justify-center font-light ${className || ""}`} 
-      style={{ fontFamily: "'Roboto', sans-serif" }}
+      style={{ fontFamily: "'Roboto', sans-serif", direction: "ltr" }}
       {...props}
     >
       <style>{`
