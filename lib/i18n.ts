@@ -1,4 +1,4 @@
-import { LOCALES, type Locale, DEFAULT_LOCALE } from "@/middleware";
+import { LOCALES, type Locale, DEFAULT_LOCALE } from "@/lib/locales";
 import ar from "./locales/ar.json";
 import en from "./locales/en.json";
 import tr from "./locales/tr.json";
