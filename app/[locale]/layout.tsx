@@ -40,7 +40,7 @@ export async function generateMetadata({
     metadataBase: new URL("https://infinitycars.sy"),
     title: {
       default: dict.seo.title,
-      template: "%s | INFINITY CARS",
+      template: "%s | TITAN MOTORS",
     },
     description: dict.seo.description,
   };
