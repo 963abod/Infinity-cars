@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/lib/utils";
 
 export interface KineticTextLoaderProps extends React.HTMLAttributes<HTMLDivElement> {
   text?: string;
@@ -16,7 +15,7 @@ export function KineticTextLoader({
 
   return (
     <div 
-      className={cn("relative flex items-center justify-center font-light", className)} 
+      className={`relative flex items-center justify-center font-light ${className || ""}`} 
       style={{ fontFamily: "'Roboto', sans-serif" }}
       {...props}
     >
