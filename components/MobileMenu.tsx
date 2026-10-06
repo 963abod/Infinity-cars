@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import { X, MessageCircle } from "lucide-react";
-import { Locale } from "@/middleware";
+import { Locale } from "@/lib/locales";
 import { Dictionary, isRTL } from "@/lib/i18n";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { getWhatsAppLink } from "@/lib/whatsapp";
