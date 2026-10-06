@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans_Arabic, Inter } from "next/font/google";
 import { LOCALES, type Locale } from "@/lib/locales";
 import { isRTL, getDictionary } from "@/lib/i18n";
+import SplashScreen from "@/components/SplashScreen";
 import "../globals.css";
 
 const ibmPlexArabic = IBM_Plex_Sans_Arabic({
@@ -70,6 +71,7 @@ export default async function LocaleLayout({
       className={ibmPlexArabic.variable + " " + inter.variable}
     >
       <body className="min-h-screen flex flex-col bg-[var(--color-bg)] text-[var(--color-text-primary)] antialiased selection:bg-[#1D61E7] selection:text-white">
+        <SplashScreen />
         {children}
       </body>
     </html>
