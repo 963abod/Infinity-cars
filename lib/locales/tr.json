@@ -9,7 +9,7 @@
     "bookNow": "WhatsApp ile Rezerve Et"
   },
   "hero": {
-    "badge": "INFINITY CARS - Suriye",
+    "badge": "Titan Cars - Suriye",
     "titleLine1": "Lüks Araç Kiralama",
     "titleLine2": "Mükemmel Konfor ve Kolaylık",
     "description": "Suriye'de son model lüks araç filomuzla olağanüstü bir yolculuk deneyimi yaşayın. Hızlı teslimat ve 24/7 kesintisiz hizmet.",
@@ -17,7 +17,7 @@
     "secondaryCta": "Araçları İncele"
   },
   "benefits": {
-    "title": "Neden Infinity Cars?",
+    "title": "Neden Titan Cars?",
     "modernFleet": {
       "title": "Modern Filo",
       "desc": "En üst düzey konfor ve güvenlik donanımlı yeni model araçlar."
@@ -131,14 +131,14 @@
     "address": "Şam, Suriye",
     "whatsapp": "WhatsApp ile Ulaşın",
     "languageNote": "24/7 Çok dilli müşteri desteği",
-    "copyright": "Tüm hakları saklıdır © {year} INFINITY CARS.",
+    "copyright": "Tüm hakları saklıdır © {year} Titan Cars.",
     "developerCredit": "Design and development Aboud Web"
   },
   "whatsapp": {
-    "genericMessage": "Merhaba Infinity Cars, araç kiralama hakkında bilgi almak istiyorum."
+    "genericMessage": "Merhaba Titan Cars, araç kiralama hakkında bilgi almak istiyorum."
   },
   "seo": {
-    "title": "INFINITY CARS | Suriye Lüks Araç Kiralama",
+    "title": "Titan Cars | Suriye Lüks Araç Kiralama",
     "description": "Suriye'de en yeni lüks araçları kiralayın. Şeffaf şartlar, konfor ve güvenli kiralama. WhatsApp ile anında rezervasyon."
   }
 }
