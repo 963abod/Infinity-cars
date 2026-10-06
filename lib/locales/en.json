@@ -9,7 +9,7 @@
     "bookNow": "Book via WhatsApp"
   },
   "hero": {
-    "badge": "INFINITY CARS - Syria",
+    "badge": "Titan Cars - Syria",
     "titleLine1": "Premium Car Rental",
     "titleLine2": "Unmatched Luxury & Ease",
     "description": "Experience an extraordinary journey in Syria with our premier fleet of modern luxury vehicles. Rapid pickup and 24/7 dedicated service.",
@@ -17,7 +17,7 @@
     "secondaryCta": "Explore Vehicles"
   },
   "benefits": {
-    "title": "Why Choose Infinity Cars?",
+    "title": "Why Choose Titan Cars?",
     "modernFleet": {
       "title": "Modern Fleet",
       "desc": "Latest vehicle models equipped with high-end safety & comfort features."
@@ -131,14 +131,14 @@
     "address": "Damascus, Syria",
     "whatsapp": "Chat on WhatsApp",
     "languageNote": "Multilingual customer service 24/7",
-    "copyright": "All rights reserved © {year} INFINITY CARS.",
+    "copyright": "All rights reserved © {year} Titan Cars.",
     "developerCredit": "Design and development Aboud Web"
   },
   "whatsapp": {
-    "genericMessage": "Hello Infinity Cars, I would like to inquire about booking a vehicle."
+    "genericMessage": "Hello Titan Cars, I would like to inquire about booking a vehicle."
   },
   "seo": {
-    "title": "INFINITY CARS | Premium Car Rental Syria",
+    "title": "Titan Cars | Premium Car Rental Syria",
     "description": "Rent top-tier luxury cars in Syria with maximum comfort, safety, and transparent terms. Instant booking via WhatsApp."
   }
 }
