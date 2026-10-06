@@ -9,7 +9,7 @@
     "bookNow": "Über WhatsApp buchen"
   },
   "hero": {
-    "badge": "INFINITY CARS - Syrien",
+    "badge": "Titan Cars - Syrien",
     "titleLine1": "Premium-Autovermietung",
     "titleLine2": "Höchster Komfort & Luxus",
     "description": "Erleben Sie eine außergewöhnliche Reise in Syrien mit unserer Flotte moderner Luxusfahrzeuge. Schnelle Übergabe und 24/7-Kundenservice.",
@@ -17,7 +17,7 @@
     "secondaryCta": "Fahrzeuge ansehen"
   },
   "benefits": {
-    "title": "Warum Infinity Cars wählen?",
+    "title": "Warum Titan Cars wählen?",
     "modernFleet": {
       "title": "Moderne Flotte",
       "desc": "Neueste Fahrzeugmodelle mit höchstem Sicherheits- und Komfortstandard."
@@ -131,14 +131,14 @@
     "address": "Damaskus, Syrien",
     "whatsapp": "Chat auf WhatsApp",
     "languageNote": "Mehrsprachiger Kundenservice rund um die Uhr",
-    "copyright": "Alle Rechte vorbehalten © {year} INFINITY CARS.",
+    "copyright": "Alle Rechte vorbehalten © {year} Titan Cars.",
     "developerCredit": "Design and development Aboud Web"
   },
   "whatsapp": {
-    "genericMessage": "Hallo Infinity Cars, ich möchte mich über die Fahrzeugbuchung informieren."
+    "genericMessage": "Hallo Titan Cars, ich möchte mich über die Fahrzeugbuchung informieren."
   },
   "seo": {
-    "title": "INFINITY CARS | Luxus Autovermietung Syrien",
+    "title": "Titan Cars | Luxus Autovermietung Syrien",
     "description": "Mieten Sie moderne Luxusautos in Syrien zu fairen Konditionen mit höchstem Komfort. Direktbuchung via WhatsApp."
   }
 }
