@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { ChevronDown, Check } from "lucide-react";
-import { LOCALES, type Locale } from "@/middleware";
+import { LOCALES, type Locale } from "@/lib/locales";
 import { LOCALE_NAMES } from "@/lib/i18n";
 
 interface LanguageSwitcherProps {
