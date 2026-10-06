@@ -9,7 +9,7 @@
     "bookNow": "Забронировать в WhatsApp"
   },
   "hero": {
-    "badge": "INFINITY CARS - Сирия",
+    "badge": "Titan Cars - Сирия",
     "titleLine1": "Аренда премиум авто",
     "titleLine2": "Безупречный комфорт и стиль",
     "description": "Насладитесь безупречной поездкой по Сирии на современных премиальных автомобилях. Быстрая подача и круглосуточный сервис.",
@@ -17,7 +17,7 @@
     "secondaryCta": "Каталог авто"
   },
   "benefits": {
-    "title": "Почему выбирают Infinity Cars?",
+    "title": "Почему выбирают Titan Cars?",
     "modernFleet": {
       "title": "Современный автопарк",
       "desc": "Новейшие модели автомобилей с премиальным уровнем комфорта и безопасности."
@@ -131,14 +131,14 @@
     "address": "Дамаск, Сирия",
     "whatsapp": "Чат в WhatsApp",
     "languageNote": "Многоязычная поддержка 24/7",
-    "copyright": "Все права защищены © {year} INFINITY CARS.",
+    "copyright": "Все права защищены © {year} Titan Cars.",
     "developerCredit": "Design and development Aboud Web"
   },
   "whatsapp": {
-    "genericMessage": "Здравствуйте, Infinity Cars! Я хочу узнать больше о бронировании автомобиля."
+    "genericMessage": "Здравствуйте, Titan Cars! Я хочу узнать больше о бронировании автомобиля."
   },
   "seo": {
-    "title": "INFINITY CARS | Аренда премиум авто в Сирии",
+    "title": "Titan Cars | Аренда премиум авто в Сирии",
     "description": "Аренда современных люксовых автомобилей в Сирии. Максимальный комфорт, прозрачные условия и мгновенная бронь через WhatsApp."
   }
 }
