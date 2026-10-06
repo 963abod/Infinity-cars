@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { MessageCircle, ArrowLeft, ArrowRight, ShieldCheck } from "lucide-react";
-import { Locale } from "@/middleware";
+import { Locale } from "@/lib/locales";
 import { Dictionary, isRTL } from "@/lib/i18n";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
