@@ -67,7 +67,7 @@ export function Header({ locale, dict }: HeaderProps) {
             href={`/${locale}`}
             className="flex items-center gap-2 text-xl sm:text-2xl font-extrabold tracking-tight text-[var(--color-brand-navy)] shrink-0 hover:opacity-90 transition-opacity"
           >
-            <span>INFINITY CARS</span>
+            <span>Titan Motors</span>
           </Link>
 
           {/* Desktop Nav Links */}
