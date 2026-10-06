@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { LOCALES, type Locale } from "@/middleware";
+import { LOCALES, type Locale } from "@/lib/locales";
 import { getDictionary } from "@/lib/i18n";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
