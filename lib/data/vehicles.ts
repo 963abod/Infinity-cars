@@ -46,9 +46,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "mercedes-e-class",
     category: "luxury",
     images: [
-      "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80"
+      "/cars/mercedes.jpg"
     ],
     name: {
       ar: "مرسيدس الفئة E",
@@ -142,9 +140,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "range-rover-vogue",
     category: "suv",
     images: [
-      "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+      "/cars/range-rover.jpg"
     ],
     name: {
       ar: "رينج روفر فوج",
@@ -238,8 +234,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "bmw-7-series",
     category: "luxury",
     images: [
-      "https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1200&q=80"
+      "/cars/bmw.jpg"
     ],
     name: {
       ar: "بي إم دبليو الفئة السابعة",
@@ -333,8 +328,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "porsche-cayenne",
     category: "sports",
     images: [
-      "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
+      "/cars/porsche.jpg"
     ],
     name: {
       ar: "بورشه كايين",
@@ -428,8 +422,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "audi-q8",
     category: "suv",
     images: [
-      "https://images.unsplash.com/photo-1610882648335-ced8fc8fa6b6?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80"
+      "/cars/Audi_q8.jpg"
     ],
     name: {
       ar: "أودي Q8",
@@ -523,8 +516,7 @@ export const VEHICLES: Vehicle[] = [
     slug: "cadillac-escalade",
     category: "suv",
     images: [
-      "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80"
+      "/cars/CadillacEscalade.jpg"
     ],
     name: {
       ar: "كاديلاك إسكاليد",
