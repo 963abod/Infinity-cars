@@ -1,9 +1,10 @@
 "use client";
 
-import { Clock, MessageCircle, ArrowLeft, ArrowRight, Gauge, Users, ShieldCheck } from "lucide-react";
+import { Clock, ArrowLeft, ArrowRight, Gauge, Users, ShieldCheck } from "lucide-react";
 import { Vehicle, LocaleCode } from "@/lib/data/vehicles";
 import { Dictionary, isRTL } from "@/lib/i18n";
 import { getWhatsAppLink } from "@/lib/whatsapp";
+import LiquidGlassCard from "@/components/lightswind/liquid-glass-card";
 
 interface VehicleCardProps {
   vehicle: Vehicle;
@@ -32,84 +33,87 @@ export function VehicleCard({
     vehicle.pickupTimeMinutes.toString()
   );
 
+  const ArrowIcon = rtl ? ArrowLeft : ArrowRight;
+
   return (
-    <div
+    <LiquidGlassCard
+      variant="aurora"
+      glow
+      hoverEffect
       onClick={() => onSelectVehicle(vehicle)}
-      className="group relative flex flex-col justify-between bg-[var(--color-surface)] rounded-[24px] border border-[var(--color-border)] p-5 shadow-xs hover:shadow-md hover:-translate-y-1.5 transition-all duration-300 ease-out cursor-pointer overflow-hidden"
+      className="group flex flex-col justify-between p-5 cursor-pointer text-start transition-all duration-300"
     >
       <div>
-        {/* Card Header Row: Category Badge + Pickup Time Chip */}
-        <div className="flex items-center justify-between gap-2 mb-4">
-          <span className="px-3 py-1 rounded-full bg-[var(--color-surface-tint)] text-[var(--color-brand-navy)] text-xs font-semibold capitalize tracking-wide">
+        {/* الترويسة: الفئة ووقت التسليم */}
+        <div className="flex items-center justify-between gap-2 mb-3">
+          <span className="px-3 py-1 rounded-full bg-white/10 text-white text-xs font-semibold capitalize tracking-wide backdrop-blur-sm border border-white/10">
             {vehicle.category}
           </span>
-          <div className="inline-flex items-center gap-1.5 text-[var(--color-text-secondary)] text-xs font-medium">
-            <Clock className="w-3.5 h-3.5 text-[var(--color-brand-blue)]" />
+
+          <div className="inline-flex items-center gap-1.5 text-neutral-300 text-xs font-medium">
+            <Clock className="w-3.5 h-3.5 text-sky-400" />
             <span>{pickupLabel}</span>
           </div>
         </div>
 
-        {/* Vehicle Image Plate */}
-        <div className="relative w-full h-[180px] sm:h-[200px] rounded-2xl bg-radial from-[var(--color-surface-tint)] to-[var(--color-surface)] flex items-center justify-center p-4 mb-4 overflow-hidden">
+        {/* صورة السيارة: عريضة و object-cover بدون فراغات */}
+        <div className="relative w-full h-[210px] sm:h-[220px] rounded-2xl overflow-hidden mb-4 bg-neutral-900/50 border border-white/5">
           <img
             src={vehicle.images[0]}
             alt={name}
-            className="w-full h-full object-contain group-hover:scale-[1.05] transition-transform duration-300 ease-out"
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
             loading="lazy"
           />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-50" />
         </div>
 
-        {/* Vehicle Name & Tagline */}
-        <div className="space-y-1 mb-4 text-start">
-          <h3 className="text-lg sm:text-xl font-extrabold text-[var(--color-text-primary)] group-hover:text-[var(--color-brand-navy)] transition-colors">
+        {/* اسم ووصف السيارة */}
+        <div className="space-y-1 mb-4">
+          <h3 className="text-lg sm:text-xl font-extrabold text-white group-hover:text-sky-300 transition-colors">
             {name}
           </h3>
-          <p className="text-xs sm:text-sm text-[var(--color-text-secondary)] font-medium line-clamp-1">
+
+          <p className="text-xs sm:text-sm text-neutral-300 font-medium line-clamp-1">
             {tagline}
           </p>
         </div>
 
-        {/* 3 Key Spec Items */}
-        <div className="grid grid-cols-3 gap-2 py-3 border-y border-[var(--color-border)] mb-5 text-center">
+        {/* المواصفات الفنية */}
+        <div className="grid grid-cols-3 gap-2 py-3 border-y border-white/10 mb-5 text-center">
           <div className="flex flex-col items-center justify-center gap-1">
-            <Gauge className="w-4 h-4 text-[var(--color-brand-blue)]" />
-            <span className="text-xs font-semibold text-[var(--color-text-primary)] line-clamp-1">
+            <Gauge className="w-4 h-4 text-sky-400" />
+            <span className="text-xs font-semibold text-neutral-200 line-clamp-1">
               {engineText}
             </span>
           </div>
-          <div className="flex flex-col items-center justify-center gap-1 border-x border-[var(--color-border)] px-1">
-            <Users className="w-4 h-4 text-[var(--color-brand-blue)]" />
-            <span className="text-xs font-semibold text-[var(--color-text-primary)] line-clamp-1">
+
+          <div className="flex flex-col items-center justify-center gap-1 border-x border-white/10 px-1">
+            <Users className="w-4 h-4 text-sky-400" />
+            <span className="text-xs font-semibold text-neutral-200 line-clamp-1">
               {seatsText}
             </span>
           </div>
+
           <div className="flex flex-col items-center justify-center gap-1">
-            <ShieldCheck className="w-4 h-4 text-[var(--color-brand-blue)]" />
-            <span className="text-xs font-semibold text-[var(--color-text-primary)] line-clamp-1">
+            <ShieldCheck className="w-4 h-4 text-sky-400" />
+            <span className="text-xs font-semibold text-neutral-200 line-clamp-1">
               {insuranceText}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Primary WhatsApp CTA Button */}
+      {/* زر الحجز عبر واتساب */}
       <a
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        onClick={(e) => e.stopPropagation()} // Direct booking without opening modal
-        className="w-full min-h-[48px] px-4 py-3 rounded-xl bg-[var(--color-brand-navy)] hover:bg-[var(--color-brand-blue)] text-white text-sm font-semibold flex items-center justify-between gap-2 transition-colors duration-200 shadow-xs"
+        onClick={(e) => e.stopPropagation()}
+        className="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white text-sm font-bold flex items-center justify-center gap-2 shadow-lg shadow-blue-600/30 transition-all duration-300 active:scale-[0.98]"
       >
-        <div className="flex items-center gap-2">
-          <MessageCircle className="w-4 h-4 fill-current shrink-0" />
-          <span>{dict.vehicles.card.bookNow}</span>
-        </div>
-        {rtl ? (
-          <ArrowLeft className="w-4 h-4 rtl-flip shrink-0" />
-        ) : (
-          <ArrowRight className="w-4 h-4 shrink-0" />
-        )}
+        <span>{dict.vehicles?.card?.cta || (rtl ? "احجز الآن عبر واتساب" : "Book via WhatsApp")}</span>
+        <ArrowIcon className="w-4 h-4" />
       </a>
-    </div>
+    </LiquidGlassCard>
   );
 }
