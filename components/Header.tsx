@@ -7,6 +7,7 @@ import { Locale } from "@/lib/locales";
 import { Dictionary } from "@/lib/i18n";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { MobileMenu } from "./MobileMenu";
+import { ThemeToggle } from "./ThemeToggle";
 import { getWhatsAppLink } from "@/lib/whatsapp";
 
 interface HeaderProps {
