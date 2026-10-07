@@ -116,6 +116,7 @@ export function Header({ locale, dict }: HeaderProps) {
 
           {/* Mobile Right Controls: Language Switcher + Hamburger */}
           <div className="flex lg:hidden items-center gap-2">
+            <ThemeToggle />
             <LanguageSwitcher currentLocale={locale} />
             <button
               type="button"
