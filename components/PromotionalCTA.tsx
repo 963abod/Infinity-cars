@@ -20,7 +20,7 @@ export function PromotionalCTA({ locale, dict }: PromotionalCTAProps) {
       {/* صورة الرينج روفر واضحة بدون تعتيم يكتم الملامح */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img
-          src="/Hero.jpg"
+          src="/hero.jpg"
           alt="Titan Motors Car"
           className="w-full h-full object-cover object-center brightness-105 contrast-110"
         />
