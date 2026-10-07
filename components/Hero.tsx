@@ -22,8 +22,7 @@ export function Hero({ locale, dict }: HeroProps) {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=85')",
+          backgroundImage: "url('/hero.jpg')",
         }}
       />
 
