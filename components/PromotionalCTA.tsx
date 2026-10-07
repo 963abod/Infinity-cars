@@ -17,13 +17,15 @@ export function PromotionalCTA({ locale, dict }: PromotionalCTAProps) {
       id="contact"
       className="relative w-full py-20 lg:py-32 bg-[var(--color-brand-navy)] text-white overflow-hidden"
     >
-      {/* Dark Cinematic Scrim Overlay */}
+      {/* خلفية الصورة واضحة */}
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-25 mix-blend-overlay"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: "url('/Hero.jpg')",
         }}
       />
+      {/* طبقة تظليل كحلية لضمان وضوح النصوص */}
+      <div className="absolute inset-0 bg-slate-950/70 backdrop-blur-[1px]" />
 
       <div className="relative z-10 max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
         <div className="max-w-2xl mx-auto space-y-4">
