@@ -26,7 +26,7 @@ export function Footer({ locale, dict }: FooterProps) {
   ];
 
   return (
-    <footer className="w-full bg-[var(--color-brand-navy)] text-slate-300 border-t border-slate-800 pt-16 pb-8">
+    <footer className="w-full bg-[var(--color-brand-navy)] dark:bg-slate-950 dark:border-t dark:border-slate-800/80 text-slate-300 border-t border-slate-800 pt-16 pb-8">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         {/* Main 4-Column Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-start">
