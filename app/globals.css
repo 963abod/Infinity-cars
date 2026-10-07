@@ -22,6 +22,18 @@
   --radius-input: 10px;
 }
 
+/* ألوان الدارك مود عند تفعيل الزر */
+.dark {
+  --color-bg: #0b0f19;
+  --color-surface: #111827;
+  --color-surface-tint: #1f2937;
+  --color-border: #1e293b;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-brand-navy: #38bdf8;
+  --color-brand-blue: #3b82f6;
+}
+
 @theme {
   --color-brand-navy: var(--color-brand-navy);
   --color-brand-blue: var(--color-brand-blue);
