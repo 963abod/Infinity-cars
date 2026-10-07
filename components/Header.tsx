@@ -101,6 +101,7 @@ export function Header({ locale, dict }: HeaderProps) {
 
           {/* Desktop Right Controls: Language Switcher + WhatsApp CTA */}
           <div className="hidden lg:flex items-center gap-4 shrink-0">
+            <ThemeToggle />
             <LanguageSwitcher currentLocale={locale} />
             <a
               href={whatsappUrl}
